@@ -8,7 +8,7 @@ Created on 2019年7月7日
 import random
 def gen():
     operator=['+','-']
-    op_no=random.randint(2,5)
+    op_no=random.randint(3,5)
     op_nu=[]
     for i in range(op_no -1):
         op_nu.append(random.randint(1,99))
